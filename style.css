@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* p{
+    display: flex;
+    justify-items: left;
+} */
+
+.background{
+    background-image: url(open\ bible.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    
+}
+.nav p{
+padding: 0px 20px;
+}
+.move{
+margin-top: 10%;
+
+}
+.Text{
+    text-align: center;
+    margin-bottom: 20%;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.bless{
+    font-weight: normal;
+    font-size: 22px;
+}
+.camp{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20%; */
+    background-color: maroon;
+align-items: center;
+padding: 0px 150px;
+    /* width: 100%; */
+    height: 30vh;
+
+}
+.church{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5%;
+    padding-bottom: 3%;
+    
+}
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 30px;
+    padding: 0px 60px;
+    /* border: solid red; */
+}
+/* .text-content{
+    min-width: 100%;
+} */
+.text-content img{
+margin-right: 10px;
+    width: 100%;
+}
+h4{
+    margin-left: 40%;
+}
+
+.container{
+    background-color: aliceblue;
+    width: 100%;
+    height: 50vh;
+}
+.open{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.space{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    padding: 0px 60px;
+    
+}
+.icon{
+    text-align: center;
+}
+/* .worship{
+ font-weight: bold;
+ font-size: 20px;
+ margin-left: 10%;
+} */
+/* .row{
+    text-align: justify;
+    margin-top: 6%;
+    display: grid; */
+
+
+
+
+/* .row{
+    
+    margin-top: 6%;
+    display: grid;
+
+grid-template-columns: auto auto auto;    grid-template-rows: auto auto auto;
+    grid-gap: 40px;
+    padding: 0px 80px;
+    
+}
+.row>section>p{
+    text-align: justify;
+    text-decoration: none;
+   
+} */
+
+.container2{
+    display: flex;
+    align-items: center;
+    padding: 0px 70px;
+}
+.container2 .sermon{
+    margin-left: 2%;
+}
+
+
+.sermon{
+    /* margin-top : 20%; */
+    text-align: justify;
+    /* margin-left: 60px; */
+    
+}
+.contents-class{
+    padding-bottom: 2%;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width:650px) {
+    .camp{
+        display: block;
+        width: fit-content;
+        padding: 15px;
+        text-align: center;
+    
+    }
+    
+    .row{
+        display: block;
+        
+    }
+    .container2{
+        display: block;
+        /* align-items: center; */
+    }
+    .open{
+        padding: 0;
+    width: 100%;
+height: 20vh;
+    }
+
+    .space{
+        display:block;
+        /* width: 100%; */
+        /* grid-gap: 30px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        padding: 0px 60px;
+         */
+    }
+    }
